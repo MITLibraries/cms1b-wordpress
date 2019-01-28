@@ -4,39 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5efab88af00cbcc172a9d398b5249de2",
+    "content-hash": "4733bc72c45d72b78e41f65e35dbcd3c",
     "packages": [
-        {
-            "name": "MITLibraries/Custom-Child-Theme-Post-Types",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/MITLibraries/Custom-Child-Theme-Post-Types.git",
-                "reference": "9d0b32583858df712beb53c64bd4b4672f7b88dc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/MITLibraries/Custom-Child-Theme-Post-Types/zipball/9d0b32583858df712beb53c64bd4b4672f7b88dc",
-                "reference": "9d0b32583858df712beb53c64bd4b4672f7b88dc",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "GPLv2"
-            ],
-            "authors": [
-                {
-                    "name": "Phillip Bruk for MIT Libraries",
-                    "email": "web-lib@mit.edu"
-                }
-            ],
-            "description": "A plugin that adds custom post types for Exhibits theme",
-            "support": {
-                "source": "https://github.com/MITLibraries/Custom-Child-Theme-Post-Types/tree/1.0.0",
-                "issues": "https://github.com/MITLibraries/Custom-Child-Theme-Post-Types/issues"
-            },
-            "time": "2019-01-25T21:35:20+00:00"
-        },
         {
             "name": "composer/installers",
             "version": "v1.6.0",

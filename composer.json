@@ -25,7 +25,6 @@
   "require": {
     "composer/installers": "^1.3.0",
     "matt-bernhardt/mitlib-secrets-widget": "^0.1.0",
-    "MITLibraries/Custom-Child-Theme-Post-Types": "^1.0.0",
     "pantheon-systems/quicksilver-pushback": "^1.0",
     "pantheon-systems/wordpress-composer": "^5.0.0",
     "roots/wp-password-bcrypt": "^1.0.0",
