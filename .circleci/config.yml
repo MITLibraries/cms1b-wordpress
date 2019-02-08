@@ -58,6 +58,22 @@ jobs:
                 name: install dev dependencies
                 command: composer install --no-ansi --no-interaction --optimize-autoloader --no-progress
 
+            - run:
+                name: mark set-up-node as executable
+                command: chmod +x ./.circleci/set-up-node.sh
+
+            - run:
+                name: install node ecosystem
+                command: ./.circleci/set-up-node.sh
+
+            - run:
+                name: mark build-assets as executable
+                command: chmod +x ./.circleci/build-assets.sh
+
+            - run:
+                name: build assets with grunt
+                command: ./.circleci/build-assets.sh
+
             - save_cache:
                 key: composer-cache
                 paths:
@@ -114,6 +130,22 @@ jobs:
             - run:
                 name: build assets
                 command: composer -n build-assets
+
+            - run:
+                name: mark set-up-node as executable
+                command: chmod +x ./.circleci/set-up-node.sh
+
+            - run:
+                name: install node ecosystem
+                command: ./.circleci/set-up-node.sh
+
+            - run:
+                name: mark build-assets as executable
+                command: chmod +x ./.circleci/build-assets.sh
+
+            - run:
+                name: build assets with grunt
+                command: ./.circleci/build-assets.sh
 
             - run:
                 name: deploy to Pantheon
