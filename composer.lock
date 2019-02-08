@@ -4,8 +4,39 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3e35d61c48194f44a5a2880115183b78",
+    "content-hash": "e1aee97c6905c7bc518c501006a7d133",
     "packages": [
+        {
+            "name": "MITLibraries/cms1b-courtyard",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MITLibraries/cms1b-courtyard.git",
+                "reference": "c814456d85194f89aa1373f01564f9627dc29589"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MITLibraries/cms1b-courtyard/zipball/c814456d85194f89aa1373f01564f9627dc29589",
+                "reference": "c814456d85194f89aa1373f01564f9627dc29589",
+                "shasum": ""
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "GPL3"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Bernhardt",
+                    "email": "mjbernha@mit.edu"
+                }
+            ],
+            "description": "A WordPress theme that is compatible with Pantheon deploys and CircleCI builds",
+            "support": {
+                "source": "https://github.com/MITLibraries/cms1b-courtyard/tree/0.1.1",
+                "issues": "https://github.com/MITLibraries/cms1b-courtyard/issues"
+            },
+            "time": "2019-02-08T21:39:11+00:00"
+        },
         {
             "name": "composer/installers",
             "version": "v1.6.0",
